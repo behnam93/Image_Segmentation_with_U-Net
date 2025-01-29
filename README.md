@@ -1,4 +1,4 @@
-###U-Net for Image Segmentation
+#U-Net for Image Segmentation
 Overview
 Image segmentation is a fundamental task in computer vision that involves partitioning an image into meaningful segments or objects. The U-Net architecture, originally developed for biomedical image segmentation, has gained widespread adoption due to its ability to achieve precise pixel-wise segmentation.
 

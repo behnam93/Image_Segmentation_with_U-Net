@@ -7,13 +7,13 @@ This repository provides an implementation of U-Net, trained on image-mask pairs
 ### Architecture
 ####### U-Net follows an encoder-decoder structure:
 
-####### Encoder (Contracting Path): Captures the spatial context using convolutional and max-pooling layers.
-####### Decoder (Expanding Path): Reconstructs image details through upsampling and skip connections.
-####### Skip Connections: Bridge the encoder and decoder, ensuring fine-grained details are retained for precise segmentation.
-####### Dataset & Preprocessing
-####### Input: Raw images
-####### Ground Truth: Corresponding segmentation masks
-####### Preprocessing steps:
-####### Resizing images and masks to a fixed dimension
-####### Normalization for better model convergence
-####### Data augmentation (optional) to improve generalization
+###### Encoder (Contracting Path): Captures the spatial context using convolutional and max-pooling layers.
+###### Decoder (Expanding Path): Reconstructs image details through upsampling and skip connections.
+###### Skip Connections: Bridge the encoder and decoder, ensuring fine-grained details are retained for precise segmentation.
+###### Dataset & Preprocessing
+###### Input: Raw images
+###### Ground Truth: Corresponding segmentation masks
+###### Preprocessing steps:
+###### Resizing images and masks to a fixed dimension
+###### Normalization for better model convergence
+###### Data augmentation (optional) to improve generalization
